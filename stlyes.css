@@ -1,0 +1,253 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Roboto+Condensed&display=swap');
+
+*{
+margin:0;
+padding:0;
+
+}
+
+
+.sidebar{
+    background-color:rgb(3, 10, 10);
+    width: 12vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.sidebar nav{
+    padding: 10px;
+    height: 100vh;
+    width: 60vw;
+    
+    
+
+}
+
+.sidebar nav li{
+    list-style: none;
+    margin: 20px 0px;
+    font-size: 20px;
+    padding: 15px 10px;
+    width: 90px;
+    font-family: monospace;
+
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    display: flex;
+}
+.main{
+width: 100vw;
+
+
+padding:25px;
+
+
+}
+
+.infocontainer{
+    
+    height: 500vw;
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    justify-content: left;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.class{
+font-size: 30px;
+font-family: monospace;
+
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+.hobbie{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.about{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+    font-size: 30px;
+    height: 80px;
+    border-radius: 22px;
+    margin-top: 34px;
+    margin: 3px;
+    cursor: pointer;
+
+    padding: 0px 14px;
+    color: white;
+    background-color: skyblue;
+    font-weight: bold;
+
+    
+}
+
+.btn-sm{
+    font-size: 28px;
+
+
+
+}
+.btn:hover{
+    background-color: white;
+    cursor: pointer;
+    color: blue;
+    
+}
+
+.devpic img{
+    margin-top: 20px;
+    
+    padding-bottom: 50px;
+    padding-left: 200px;
+    height: 50vh;
+    justify-content: center;
+    
+    
+ 
+
+}
+
+
+.contactform{
+
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 144px;
+padding-top: 0px;
+
+}
+
+.contactform h1{
+font-family: monospace;
+padding-bottom: 40px;
+justify-content: center;
+font-size: 30px;
+
+
+
+    color: rgb(139, 23, 3);
+    
+}
+.contactform div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+.contactform div input{
+    width: 23vw;
+    border-radius: 7px;
+    font-size: 15px;
+    padding: 3px;
+    margin: 6px 0 0 0 ;
+}
+
+#form-check{
+ flex-direction: row;
+ 
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+
+}
+
+.blogitem{
+
+    margin: 20px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+h1{
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.intro h2{
+    padding-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 12px;
+    ;
+
+    
+}
+.intro p{
+
+    margin: 0 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.skillcontainer{
+    padding: 16px;
+
+}
+.skill{
+    width :230px;
+    height: 6px;
+    border: 2px solid black;
+
+
+    background-color: red;
+    
+}
+
+.infocontainer h1{
+    padding: 10px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    
+    
+}
+
+
+.hundred{
+    width: 256px;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 125px;
+    background-color:aqua;
+}
+
+.t5{
+    width: 75px;
+    background-color:yellow;
+}
+
+@media (max-width:12450px){
+
+
+}
