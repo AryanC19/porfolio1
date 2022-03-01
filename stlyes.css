@@ -22,6 +22,22 @@ padding:0;
     
     
 
+.center {
+    padding-left: 150px;
+  }
+.center2{
+    padding-left: 166px;
+  }
+.center3{
+    padding-left: 177px;
+  }
+.center4{
+    padding-left: 127px;
+  }
+.center5{
+    padding-left: 160px;
+  }
+
 }
 
 .sidebar nav li{
